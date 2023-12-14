@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600&display=swap');
+
+h1 {
+  font-family: 'Archivo Black', sans-serif;
+}
+p {
+  font-family: 'Archivo', sans-serif;
+  font-size: 17px;
+}
+.inner {
+  width: 100%;
+  max-width: 1280px;
+  padding: 10px 20px;
+}
+
+.left-col {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.card-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  justify-items: center;
+  grid-gap: 10px;
+}
+.card {
+  width: 100%;
+  overflow: hidden;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.card a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  font-size: 20px;
+  height: 350px;
+}
+.card-text {
+  margin-right: 10px;
+}
+
+@media(max-width: 1190px) {
+  .inner {
+    width: 100%;
+    padding: 20px;
+    flex-direction: column-reverse;
+  }
+  .video {
+    width: 100%;
+  }
+}
+@media(max-width: 768px) {
+ 
+}
+@media(max-width: 500px) {
+  .card {
+    padding: 20px;
+  }
+
+}
