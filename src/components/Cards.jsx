@@ -38,7 +38,7 @@ function Cards() {
             </a>
             
           </div>
-          <div className="card bg-[#7C93D4]">
+          {/* <div className="card bg-[#7C93D4]">
             <a href="#">
               <span className="mr-4">Card 4</span>
               <IoOpenOutline  className="text-2xl"/>  
@@ -79,7 +79,7 @@ function Cards() {
               <IoOpenOutline  className="text-2xl"/>  
             </a>
             
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
