@@ -6,7 +6,7 @@ function Hero() {
       <section className="hero lg:py-40 flex flex-col justify-center items-center">
         <div className="flex gap-10 md:gap-30 inner">
           <div className="w-full left-col">
-            <h1 className="text-2xl lg:text-7xl mb-4 ">Links, <span className="text-[#7c93d4]">SON</span>!</h1>
+            <h1 className="text-2xl lg:text-7xl mb-4 ">Magical <span className="text-[#7c93d4]">MOM BOSS</span> Affiliate!</h1>
             <p className="mb-5 text-xl">Check out my links or else...</p>
           </div>
           <div className="" id="links">
