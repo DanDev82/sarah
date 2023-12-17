@@ -14,29 +14,25 @@ function Cards() {
   return (
     <section>
       <div className="inner mx-auto">
-        <h2 className="text-4xl text-center mb-10 font-bold">My Links</h2>
-        <div className="card-row ">
-          <div className="card bg-[#C7E9F1]">
-            
+        <h2 className="text-4xl text-center mb-10 font-bold h2">My Links</h2>
+        <div className="card-row  mb-40">
+          <div className="card bg-[#C7E9F1] facebook">
             <a href="https://www.facebook.com/profile.php?id=61553238343927">
-              <span className="mr-4"><FaFacebookF className="text-4xl"/></span>
+              <span className="mr-4"><FaFacebookF className="text-5xl"/></span>
               {/* <IoOpenOutline  className="text-2xl"/>   */}
             </a>
-            
           </div>
-          <div className="card bg-[#FEF9C8]">
+          <div className="card bg-[#FEF9C8] instagram">
             <a href="https://www.instagram.com/magicalmombossaffiliate/">
-              <span className="mr-4"><FaInstagram className="text-4xl"/></span>
+              <span className="mr-4"><FaInstagram className="text-5xl"/></span>
               {/* <IoOpenOutline  className="text-2xl"/>   */}
             </a>
-            
           </div>
-          <div className="card bg-[#F0CDFD]">
+          <div className="card bg-[#F0CDFD] tiktok">
             <a href="https://www.tiktok.com/@magicalmombossaffiliate">
-              <span className="mr-4"><FaTiktok className="text-4xl"/></span>
+              <span className="mr-4"><FaTiktok className="text-5xl"/></span>
               {/* <IoOpenOutline  className="text-2xl"/>   */}
             </a>
-            
           </div>
           {/* <div className="card bg-[#7C93D4]">
             <a href="#">
@@ -81,6 +77,7 @@ function Cards() {
             
           </div> */}
         </div>
+        <div className="text-center w-full text-sm">&copy;2023 Magical Mom Boss Affiliate</div>
       </div>
     </section>
   )

@@ -3,8 +3,8 @@ import React from 'react'
 function Hero() {
   return (
     <>
-      <section className="hero lg:py-40 flex flex-col justify-center items-center">
-        <div className="flex gap-10 md:gap-30 inner">
+      <section className="hero flex flex-col justify-center items-center">
+        <div className="flex lg:py-40 rounded-lg gap-10 md:gap-30 inner bg-slate-50">
           <div className="w-full left-col">
             <h1 className="text-2xl lg:text-7xl mb-4 ">Magical <span className="text-[#7c93d4]">MOM BOSS</span> Affiliate!</h1>
             <p className="mb-5 text-xl">Check out my links below.</p>

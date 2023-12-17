@@ -3,6 +3,13 @@
 h1 {
   font-family: 'Archivo Black', sans-serif;
 }
+.h2 {
+  border-bottom-color: #F9C8DD;
+  border-bottom-width: 8px;
+  margin: 10px auto;
+  text-align: center;
+  width: 160px;
+}
 p {
   font-family: 'Archivo', sans-serif;
   font-size: 17px;
@@ -36,6 +43,11 @@ p {
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
 }
 .card a {
   display: flex;
@@ -44,11 +56,20 @@ p {
   padding: 60px;
   font-size: 20px;
   height: 350px;
+  width: 100%;
 }
 .card-text {
   margin-right: 10px;
 }
-
+.facebook:hover {
+  background: #add4dd;
+}
+.instagram:hover {
+  background: #f7efaf;
+}
+.tiktok:hover {
+  background: #e4baf3;
+}
 @media(max-width: 1190px) {
   .inner {
     width: 100%;
