@@ -7,7 +7,7 @@ function Hero() {
         <div className="flex gap-10 md:gap-30 inner">
           <div className="w-full left-col">
             <h1 className="text-2xl lg:text-7xl mb-4 ">Magical <span className="text-[#7c93d4]">MOM BOSS</span> Affiliate!</h1>
-            <p className="mb-5 text-xl">Check out my links or else...</p>
+            <p className="mb-5 text-xl">Check out my links below.</p>
           </div>
           <div className="" id="links">
             <iframe className="video" width="560" height="315" src="https://www.youtube.com/embed/NpEaa2P7qZI?si=2SqhLbkBbHfdcrhf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
