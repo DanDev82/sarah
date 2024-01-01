@@ -14,7 +14,7 @@ function Cards() {
   return (
     <section>
       <div className="inner mx-auto m-0 px-5 lg:px-5 pb-20">
-        <h2 className="text-4xl text-center mb-10 md:mb-20 font-bold h2">My Links</h2>
+        <h2 className="text-4xl text-center mb-10 md:mb-20 font-bold h2">My <span className="text-[#7c93d4]">Links</span></h2>
         <div className="card-row  mb-40">
           <div className="card bg-[#C7E9F1] facebook">
             <a href="https://www.facebook.com/profile.php?id=61553238343927">
