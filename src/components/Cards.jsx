@@ -77,7 +77,7 @@ function Cards() {
             
           </div> */}
         </div>
-        <div className="text-center w-full text-sm">&copy;2023 Magical Mom Boss Affiliate</div>
+        
       </div>
     </section>
   )
