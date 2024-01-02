@@ -70,6 +70,12 @@ p {
 .tiktok:hover {
   background: #e4baf3;
 }
+.systeme:hover {
+  background: #eab6cd;
+}
+.shop:hover {
+  background: #738ac8;
+}
 @media(max-width: 1190px) {
   .inner {
     width: 100%;
