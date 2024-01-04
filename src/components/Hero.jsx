@@ -10,7 +10,7 @@ function Hero() {
             <p className="mb-5 text-xl">Unlock Exclusive Deals and Discover Exciting Products through My Affiliate Links!</p>
           </div>
           <div className="" id="links">
-            <iframe className="video rounded-md" width="560" height="315" src="https://www.youtube.com/embed/NpEaa2P7qZI?si=2SqhLbkBbHfdcrhf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe className="video rounded-md" width="560" height="315" src="https://www.youtube.com/embed/5pf-6Bu-YTI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>
       </section>

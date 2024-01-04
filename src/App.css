@@ -87,11 +87,15 @@ p {
   }
 }
 @media(max-width: 768px) {
- 
+  .card a {
+    height: 250px;
+  }
 }
 @media(max-width: 500px) {
   .card {
     padding: 20px;
   }
-
+  .card a {
+    height: 200px;
+  }
 }
